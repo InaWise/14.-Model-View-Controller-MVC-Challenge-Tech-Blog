@@ -4,3 +4,6 @@
 
 
 [repo](https://github.com/InaWise/14.-Model-View-Controller-MVC-Challenge-Tech-Blog)
+
+![image](https://user-images.githubusercontent.com/77795818/126400829-d907b5a2-ba3f-45b2-a699-a27c11de2cce.png)
+
