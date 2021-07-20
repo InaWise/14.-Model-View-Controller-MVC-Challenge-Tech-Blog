@@ -13,10 +13,10 @@ Comment.findAll()
 });
 
 // create a comment
-router.post("/", withAuth, (req, res) => {
+router.post("/", withAuth, async (req, res) => {
     // check the session
     if (req.session) {
-      Comment.create({
+      await Comment.create({
         comment_text: req.body.comment_text,
         post_id: req.body.post_id,
         // use the id from the session

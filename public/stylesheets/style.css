@@ -8,7 +8,7 @@ body, html {
     height: 100%;
     padding: 0;
     margin: 0;
-    color: #333533;
+    color: #5c3c33;;
     background-color: #cfd8d5;
 }
 
@@ -42,7 +42,7 @@ p {
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #333533;
+    background: #5c3c33;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -85,7 +85,7 @@ p {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: #c3e6d5;
 }
 
 .sidebar-nav li a:hover {
@@ -97,6 +97,7 @@ p {
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
     text-decoration: none;
+    text-align: left;
 }
 
 .sidebar-nav > .sidebar-brand {
@@ -106,11 +107,12 @@ p {
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999999;
+    color: #5c3c33;
+    
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
+    color: #5c3c33;
     background: none;
 }
 
@@ -155,7 +157,7 @@ main {
     }
 }
 a {
-    color: black;
+    color: #5c3c33;
     text-decoration: none;
 }
 .post:hover {
@@ -163,7 +165,9 @@ a {
 }
 
 logout:hover {
-    color: #f2d47d ;
+    display: block;
+    text-decoration: none;
+    color: #c3e6d5;
 }
 
 .title {
@@ -173,10 +177,10 @@ logout:hover {
 
 
 button {
-    background-color: #333533;
+    background-color: #5c3c33;
     border: 0;
     padding: 1%;
-    color: white;
+    color: #bcc7c2;
     font-weight: bold;
     transition: background-color 0.1s;
     cursor: pointer;
@@ -186,7 +190,7 @@ button {
 }
 
 button:hover {
-    color: #f2d47d ;
+    color: #5c3c33 ;
 }
 
 .login,
@@ -299,20 +303,21 @@ header h1 {
 
 h1 {
     font-size: 64px;
+    color: #5c3c33;
 }
 
-.staybuzzin {
-    border-bottom: 3px solid #f5cb5c;
+.techblog {
+    border-bottom: 3px solid #b5ebe1;
 }
 
-.staybuzzin:hover {
-    border-bottom: 3px dashed #333533;
+.techblog:hover {
+    border-bottom: 3px dashed #5c3c33;
 }
 
 main {
     flex: 1;
     padding: 2% 4%;
-    border: 1px solid gray;
+    border: 1px solid #5c3c33;
 }
 
 .username {
